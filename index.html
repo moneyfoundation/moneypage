@@ -1,319 +1,393 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
 <meta charset="utf-8">
-<title>Money</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
 
-<!-- Google Fonts -->
-<script type="text/javascript">  WebFontConfig = {    google: { families: [ 'lato' ] }  };  (function() {    var wf = document.createElement('script');    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';    wf.type = 'text/javascript';    wf.async = 'true';    var s = document.getElementsByTagName('script')[0];    s.parentNode.insertBefore(wf, s);  })();</script>
-<!--[if IE]>
-	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
-<![endif]-->
+<title>In Money we Trust $$$ </title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
 
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="css/theme.css" rel="stylesheet">
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
-<link href="css/zocial.css" rel="stylesheet" type="text/css"/>
-<link href="css/settings.css" rel="stylesheet" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+
+
 <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
 <![endif]-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-48013529-1', 'Money.io');
-  ga('send', 'pageview');
-
-</script>
 
 </head>
-
 <body>
-<!--header-->
-	<div class="header">
-		<div class="container">
-		<!--logo-->
-			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-			<i class="fa fa-bars"></i></button>
-					<div class="logo">
-						 <a href="index.html"><img src="img/logo.png" alt="" /></a>
-					</div>
-					<!--menu-->
-					   <nav id="main_menu">
-					<div class="nav-collapse collapse">
-						<ul class="nav nav-pills">
-							<li><a href="index.html">Home</a></li>
-							<li class="dropdown"><a href="javascript:{}">About</a>
-						<ul class="dropdown-menu">
-								<li><a href="intro.html">Introduction</a></li>
-								<li><a href="getstarted.html">Get started</a></li>
-								<li><a href="faq.html">FAQ</a></li>
-						</ul>
-							</li>
-							<li class="dropdown"><a href="javascript:{}">Team</a>
-						<ul class="dropdown-menu">
-								<li><a href="meetteam.html">Meet the team</a></li>
-						</ul>
-							</li>
-							<li class="dropdown"><a href="javascript:{}">Resources</a>
-						<ul class="dropdown-menu">
-								<li><a href="userguide.html">User guide</a></li>
-								<li><a href="mining.html">Mining</a></li>
-								<li><a href="masternodes.html">Masternodes</a></li>
-							</ul>
-							</li>
-							<li class="dropdown"><a href="javascript:{}">Community</a>
-						<ul class="dropdown-menu">
-								<li><a href="getinvolved.html">Get involved</a></li>
-						</ul>
-							</li>
-							<li class="dropdown"><a href="javascript:{}">News</a>
-						<ul class="dropdown-menu">
-								<li><a href="media.html">Media releases</a></li>
-						</ul>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</div>
-	<!--//header-->
-
-	<!--page-->
-		<!-- REVOLUTION SLIDER -->
-        <div class="fullwidthbanner-container">
-        	<div class="fullwidthbanner">
-		<ul>
-		<!-- Slide 1 -->
-			<li data-transition="slideright">
-				<img src="img/slider/slider1.jpg" alt="" />
-
-				<!-- Caption -->
-				<div class="tp-caption lfr" data-x="left" data-y="195" data-speed="2400" data-start="800" data-easing="easeOutExpo">
-					<img src="img/slider/Money_sml.png" alt="" />
-				</div>
-
-				<!-- Caption -->
-				<div class="caption sft stl" data-x="center" data-y="105" data-speed="1000" data-start="700" data-easing="easeOutExpo">
-					<h3 class="rev-title bold"><font color="white">MONEY</font></h3>
-				</div>
-
-				<!-- Caption -->
-				<div class="caption lfl stl rev-title-sub" data-x="center" data-y="240" data-speed="800" data-start="1100" data-easing="easeOutExpo">
-					<font color="white">It's all about Money</font>
-				</div>
-
-				<!-- Caption -->
-				<div class="caption sfb" data-x="center" data-y="320" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
-					<a href="intro.html" class="btn btn-primary btn-custom">FIND OUT MORE</a> <a href="getstarted.html" class="btn btn-primary btn-custom">DOWNLOAD THE WALLET</a>
-				</div>
-			</li>
-
-			<!-- Slide 2 -->
-				<li data-transition="slideleft">
-				<img src="img/slider/slider2.jpg" alt="" />
-
-				<!-- Caption -->
-				<div class="caption sft stl" data-x="center" data-y="105" data-speed="1000" data-start="700" data-easing="easeOutExpo">
-					<h3 class="rev-title bold">SECURE</h3>
-				</div>
-
-				<!-- Caption -->
-				<div class="caption lfl stl rev-title-sub" data-x="center" data-y="240" data-speed="800" data-start="1100" data-easing="easeOutExpo">
-					GLOBAL NETWORK
-				</div>
-
-				<!-- Caption -->
-				<div class="caption sfb" data-x="center" data-y="320" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
-					<a href="intro.html" class="btn btn-primary btn-custom">FIND OUT MORE</a> <a href="getstarted.html" class="btn btn-primary btn-custom">DOWNLOAD THE WALLET</a>
-				</div>
-			</li>
+<div style="overflow:hidden;">
+<header class="header" id="header"><!--header-start-->
+	<div class="container">
+    	<figure class="logo animated fadeInDown delay-07s">
+        	<a href="#"><img src="img/logo.png" alt=""></a>	
+        </figure>	
+        <h1 class="animated fadeInDown delay-07s">Welcome to the next generation of Money</h1>
+        <ul class="we-create animated fadeInUp delay-1s">
+        	<li>
+It's all about the money.</li>
+        </ul>
+            <a class="link animated fadeInDown delay-5s" href="#service">Find out more about Money The New Global kick ass digital Currency</a>
+     </div>
+</div>
+</header><!--header-end-->
 
 
+<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+	<div class="container">
+        <ul class="main-nav">
+        	<li><a href="#header">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#Portfolio">Downloads</a></li>
+            <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
+            <li><a href="#client">Twitter</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</nav><!--main-nav-end-->
+
+
+
+<section class="main-section" id="service"><!--main-section-start-->
+	<div class="container">
+   <h2> What our customers say about us </h2>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/sZHCVyllnck" frameborder="1" allowfullscreen></iframe></center>
+    	<h1>I want you to deal with all your problems by becoming rich !!!</h1>
+        <h6><em><strong>Let me tell you something. There's no nobility in poverty. I've been a poor man, and I've been a rich man. And I choose rich every fucking time.<br>If anyone thinks I'm superficial or materialistic, go get a job at fuckin' McDo****'s, because that's where you belong!<br>Today, the concept of business is to make money. Making money is the name of the business. </strong></em></br></br></br>
+        <div class="row">
+        	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+            	<div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-eye"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>branding &amp; identity</h3>
+                        <p>Money has worked hard on these two items.If it wasent for their strong community and solid marketing they wouldnt be where they are today.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-gear"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Easy Person to Person</h3>
+                        <p>Send Money from your computer, tablet, smart phone or other device, to anyone, anywhere in the world, day or night.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-money"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Exchangeable</h3>
+                        <p>Money exchanges allow you to transfer fiat currencies, such as the USD, into Money or vice versa along with exchanging them with other digital currencies like BitCoin.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-medkit"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>24/7 Online</h3>
+                        <p>Using the Money network is free, except for a voluntary fee you can use to speed up transaction processing.
+</p>
+                    </div>
+                </div>
+            </div>
+            <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+            	<img src="img/macbook-pro.png" alt="">
+            </figure>
+        
+        </div>
+	</div>
+</section><!--main-section-end-->
+
+
+
+<section class="main-section alabaster"><!--main-section alabaster-start-->
+	<div class="container">
+    	<div class="row">
+			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+            	<img  src="img/money.gif" alt="">
+            </figure>
+        	<div class="col-lg-7 col-sm-8 featured-work">
+            	<h2>featured work</h2>
+            	<P class="padding-b">Providing developers with a fair-use monetization option</P>
+            	<div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-02s">
+                    	<i class="fa-magic"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-02s">
+                        <h3>magic of development</h3>
+                        <p>Building Apps is a massive undertaking and developers need to spend time making apps and not fighting with elaborate in-app monetization techniques.This is where Money comes in.Ease of Money implementation lets developers focus on things that matter in the World - quality of content.</p>
+                    </div>    
+                </div>
+                <div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-04s">
+                    	<i class="fa-gift"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-04s">
+                        <h3>Money Cross API</h3>
+                        <p>Money API provides a seamless and easy way to implement a monetization option that provides a secure experience for developers and users alike. Money comes with zero implementation cost and low fees when purchase volume increases.</p>
+                    </div>    
+                </div>
+                <div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-06s">
+                    	<i class="fa-dashboard"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-06s">
+                        <h3>Fast and secure</h3>
+                        <p>With our highly optimized wallet interface Money transfers are fast and reliable.</p>
+                    </div>    
+                </div>
+                <a class="Learn-More" href="#">Learn More</a>
             </div>
         </div>
-        <!-- // END REVOLUTION SLIDER -->
-
-		<div id="banner">
-	<div class="container intro_wrapper">
-	<div class="inner_content">
-
-	<!--welcome-->
-		<div class="welcome_index">
-		Welcome to the <span class="hue">next generation</span> of digital Money<br>
-
-		Money is secure, decentralized and <span class="hue">anonymous</span>
-
-		</div>
-	<!--//welcome-->
-		</div>
-			</div>
-				</div>
-				<!--//banner-->
-
-	<div class="container wrapper">
-	<div class="inner_content">
-	<div class="pad45"></div>
-
-	<!--info boxes-->
-	<div class="row">
-		<div class="span3">
-			<div class="tile">
-			<div class="intro-icon-disc cont-large"><i class="fa fa-key intro-icon-large"></i></div>
-			<h6>ANONYMOUS TRANSACTIONS</h6>
-			<p>Money is digital cash. Transactions are pooled together in the blockchain, making them anonymous from the wallet.</p>
-			</div>
-				<div class="pad25"></div>
-				</div>
-
-			<div class="span3">
-				<div class="tile">
-				<div class="intro-icon-disc cont-large"><i class="fa fa-users intro-icon-large"></i></div>
-				<h6>GLOBAL PAYMENTS</h6>
-				<p>You can send Money to family or friends, or pay for goods or services, anywhere in the world.</p>
-				</div>
-					<div class="pad25"></div>
-					</div>
-
-					<div class="span3">
-				<div class="tile">
-				<div class="intro-icon-disc cont-large"><i class="fa fa-lock  intro-icon-large"></i></div>
-				<h6>SECURE NETWORK</h6>
-				<p>The network is decentralized and free from middlemen. It's an anonymous payment system in your control.</p>
-				</div>
-					<div class="pad25"></div>
-				</div>
-
-			<div class="span3">
-				<div class="tile">
-				<div class="intro-icon-disc cont-large"><i class="fa fa-minus-circle intro-icon-large"></i></div>
-				<h6>NO BANK FEES</h6>
-				<p>Money is a decentralized currency, meaning there are no banks to take a cut of your money.</p>
-				</div>
-					<div class="pad25"></div>
-					</div>
-
-
-				</div>
-
-
-
-
-
-
-
-				</div>
-				<div id="sl-prev" class="widget-scroll-prev"><i class="fa fa-chevron-left white"></i></div>
-				<div id="sl-next" class="widget-scroll-next"><i class="fa fa-chevron-right white but_marg"></i></div>
-			</div>
-				</div>
-				</div>
-			</div>
-		</div>
-		<!--//page-->
-
-		<div class="pad25 hidden-desktop"></div>
 	</div>
+</section><!--main-section alabaster-end-->
 
-	<!-- footer -->
-	<div id="footer">
-	<h1>GET STARTED</h1>
-	<h3 class="center follow">
-	<a href="getstarted.html" class="btn btn-primary  btn-custom btn-rounded">DOWNLOAD WALLET</a>
-			<div class="pad45"></div></h3>
 
-	<div class="follow_us">
-		<a href="#" class="zocial twitter"></a>
-		<a href="#" class="zocial facebook"></a>
 
-		</div>
+<section class="main-section paddind" id="Portfolio"><!--main-section-start-->
+	<div class="container">
+    	<h2>Downloads</h2>
+      <div class="portfolioFilter">  
+        <ul class="Portfolio-nav wow fadeIn delay-02s">
+          <img src="img/wallet.png" alt=""/>
+        </ul>
+       </div> 
+        
 	</div>
+    <div class="portfolioContainer wow fadeInUp delay-04s">
+            	<div class=" Portfolio-box printdesign">
+                	<a href="https://github.com/moneyfoundation/moneywallets/raw/master/windows/money-qt.zip"><img src="img/Portfolio-pic1.png" alt=""></a>
+               	  <h3>Windows Wallets</h3>
+                	<p>If you can’t make it good, at least make it look good.</p>
+            	</div>
+                <div class="Portfolio-box webdesign">
+                	<a href="https://github.com/moneyfoundation/moneywallets/raw/master/macosx/Money-Qt.app.zip"><img src="img/imac.png" alt=""></a>	
+                	<h3>Mac Wallets</h3>
+                    <p>Stay hungry, stay foolish</p>
+                </div>
+                <div class=" Portfolio-box branding">
+                	<a href="https://github.com/moneyfoundation/money/archive/master-0.8.zip"><img src="img/Portfolio-pic3.png" alt=""></a>	
+                	<h3>Unix WAllets</h3>
+                    <p>Open Source Open Minds</p>
+                </div>
+                <div class=" Portfolio-box photography" >
+                	<a href="https://github.com/moneyfoundation/money"><img src="img/Portfolio-pic4.png" alt=""></a>	
+                	<h3>Github Source Tree</h3>
+                    <p>Gentlemen do not read each other's mail.</p>
+                </div>
+                <div class=" Portfolio-box branding">
+                	<a href="#"><img src="img/Portfolio-pic5.png" alt=""></a>	
+                	<h3>Android Wallets</h3>
+                    <p>We want Google to be the third half of your brain.</p>
+                </div>
+                <div class=" Portfolio-box photography">
+                	<a href="#"><img src="img/Portfolio-pic2.png" alt=""></a>	
+                	<h3>IOS WALLETS</h3>
+                    <p>Why join the navy if you can be a pirate?</p>
+                </div>
+    </div>
+</section><!--main-section-end-->
 
-	<!-- footer 2 -->
-	<div id="footer2">
-		<div class="container">
-			<div class="row">
-				<div class="span12">
-				<div class="copyright">
-							Money
-							&copy;
-							<script type="text/javascript">
-							//<![CDATA[
-								var d = new Date()
-								document.write(d.getFullYear())
-								//]]>
-								</script>
-							 - All Rights Reserved
-						</div>
-			            <div class=copyright> <p><a style="color: #ffffff" href="terms_of_use.html">Terms of use</a></p> </div>
-						</div>
-					</div>
-				</div>
-					</div>
 
-				<!-- up to top -->
-				<a href="#"><i class="go-top hidden-phone hidden-tablet fa fa-angle-double-up"></i></a>
-				<!--//end-->
-<!-- SCRIPTS -->
+<section class="main-section client-part" id="client"><!--main-section client-part-start-->
+	<b class="quote-right wow fadeInDown delay-03"><i class="fa-bank"></i></b><h1>Buy or Sell Money</h1></strong></br>
+    	<div class="row">
+        	<div class="col-lg-12"><br>
+            <center>
+            <a href="https://www.cryptopia.co.nz/Exchange?market=$$$_BTC">
+  <img src="https://www.cryptopia.co.nz/Content/Images/Logo-large.png" alt="">
+</a> 
+            </center>
+          
+            </div>
+        </div>
+    </div>
+</section><!--main-section client-part-end-->
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-	<script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
-<!-- slider settings -->
-<script>
-	//<![CDATA[
-    $(document).ready(function() {
-	if ($.fn.cssOriginal!=undefined)
-	$.fn.css = $.fn.cssOriginal;
-	$('.fullwidthbanner').revolution(
-		{
-			delay:9000,
-			startwidth:1170,
-			startheight:550,
-			onHoverStop:"on",
-			navigationType:"none",
-			soloArrowLeftHOffset:0,
-			soloArrowLeftVOffset:0,
-			soloArrowRightHOffset:0,
-			soloArrowRightVOffset:0,
-			touchenabled:"on",
-			fullWidth:"on",
-			shadow:0
-		});
-	});
-//]]>
-</script>
-<script src="js/jquery.touchSwipe.min.js"></script>
-<script src="js/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<!-- carousel -->
-<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<section class="main-section client-part" id="client"><!--main-section client-part-start-->
+	<div class="container">
+		<b class="quote-right wow fadeInDown delay-03"><i class="fa-bank"></i></b>Money Stocks Price Ticker
+    	<div class="row">
+        	<div class="col-lg-12"><br>
+            <center>
+        <iframe src="http://coinmarketcap.com/currencies/money/#charts" width="880" height="880" seamless></iframe>
+            </center>
+            
+            </div>
+        </div>
+    </div>
+</section><!--main-section client-part-end-->
+
+<div class="c-logo-part"><!--c-logo-part-start-->
+	<div class="container">
+    	<ul>
+        	<li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
+            <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
+            <li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
+            <li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
+            <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
+    	</ul>
+	</div>
+</div><!--c-logo-part-end-->
+<section class="main-section team" id="team"><!--main-section team-start-->
+	<div class="container">
+        <h2>Let’s Talk Business.</h2>
+   <center> <img src="img/corporate-quotes-2-10-638.png" alt=""/></center> </div>
+</section><!--main-section team-end-->
+
+
+
+<section class="business-talking"><!--business-talking-start-->
+	<div class="container">
+        <h2>Make it Rain</h2>
+       
+    </div>
+</section><!--business-talking-end-->
+<center> <img src="https://49.media.tumblr.com/tumblr_ly0oz4SKAK1qih9f9o1_500.gif" alt=""/>
+</center>
+<div class="container">
+<section class="main-section contact" id="contact">
+	
+        <div class="row">
+        	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+            	<div class="contact-info-box address clearfix">
+           
+
+</section>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
+        <span class="copyright">Copyright © 2015 | Designed by <a href="http://bootstraptaste.com">BootstrapTaste</a>.</span>
+    </div>
+    <!-- 
+        All links in the footer should remain intact. 
+        Licenseing information is available at: http://bootstraptaste.com/license/
+        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
+    -->
+</footer>
+
+
 <script type="text/javascript">
-//<![CDATA[
-jQuery(document).ready(function($) {
-	$("#slider_home").carouFredSel({ width : "100%", height : "auto",
-	responsive : true,  circular : true, infinite	: false, auto : false,
-	items : { width : 231, visible: { min: 1, max: 3 }
-	},
-	swipe : { onTouch : true, onMouse : true },
-	scroll: { items: 3, },
-	prev : { button : "#sl-prev", key : "left"},
-	next : { button : "#sl-next", key : "right" }
-	});
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script>
+
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+    document.getElementById('').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+
+
+<script type="text/javascript">
+	$(window).load(function(){
+		
+		$('.main-nav li a').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 102
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
 		});
-		//]]>
-	</script>
+	})
+</script>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+  
+  
+  var $container = $('.portfolioContainer'),
+      $body = $('body'),
+      colW = 375,
+      columns = null;
+
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: true,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope('reLayout');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+			
+            filter: selector,
+         });
+         return false;
+    });
+  
+});
+
+</script>
 </body>
 </html>
